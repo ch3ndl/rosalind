@@ -46,7 +46,6 @@ as the same function may be called multiple times during the recursive process.
 To optimize this, we can use a list (or memoization) to store previously calculated results,
 which will reduce the number of redundant calculations and improve performance.
 
-
 ``` python
 datafile = "0_data/rosalind_fib.txt"
 with open(datafile, 'r') as handle:
