@@ -29,13 +29,13 @@ ACCGGGTTTT
 ### Shell
 
 ``` bash
-cat 0_data/rosalind_revc.txt | sed 's/./&\n/g' | awk '/A/{printf "T"}/T/{printf "A"}/G/{printf "C"}/C/{printf "G"}END{print}' | rev
+cat 003_revc/rosalind_revc.txt | sed 's/./&\n/g' | awk '/A/{printf "T"}/T/{printf "A"}/G/{printf "C"}/C/{printf "G"}END{print}' | rev
 ```
 
 ### Python
 
 ``` python
-datafile = "0_data/rosalind_revc.txt"
+datafile = "003_revc/rosalind_revc.txt"
 with open(datafile, 'r') as handle:
 	line_list = handle.readlines()
 	string = ''.join([

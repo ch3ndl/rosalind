@@ -47,7 +47,7 @@ To optimize this, we can use a list (or memoization) to store previously calcula
 which will reduce the number of redundant calculations and improve performance.
 
 ``` python
-datafile = "0_data/rosalind_fib.txt"
+datafile = "004_fib/rosalind_fib.txt"
 with open(datafile, 'r') as handle:
 	 n,k = handle.readline().split(' ')
 	 n = int(n)

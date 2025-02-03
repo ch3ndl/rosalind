@@ -1,11 +1,11 @@
 #!python3
 # Chendl 2024-12-31
 ## Comment here
-datafile = "0_data/rosalind_fib.txt"
+datafile = "004_fib/rosalind_fib.txt"
 with open(datafile, 'r') as handle:
-	 n,k = handle.readline().split(' ')
-	 n = int(n)
-	 k = int(k)
+	n,k = handle.readline().split(' ')
+	n = int(n)
+	k = int(k)
 
 fib_list = [1,1] # store calculated Fn for avoiding repeated calculation
 

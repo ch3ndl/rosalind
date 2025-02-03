@@ -29,13 +29,13 @@ GAUGGAACUUGACUACGUAAAUU
 ### Shell
 
 ``` bash
-sed 's/T/U/g' 0_data/rosalind_rna.txt 
+sed 's/T/U/g' 2_rna/rosalind_rna.txt 
 ```
 
 ### Python
 
 ``` python
-datafile = "0_data/rosalind_rna.txt"
+datafile = "2_rna/rosalind_rna.txt"
 with open(datafile, 'r') as handle:
 	line_list = handle.readlines()
 	string = ''.join([

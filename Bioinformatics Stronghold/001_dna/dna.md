@@ -23,7 +23,7 @@ AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC
 ### Shell
 
 ``` bash
-cat 0_data/rosalind_dna.txt |\
+cat 001_dna/rosalind_dna.txt |\
 sed 's/./&\n/g' |\
 # add '\n' after every char
 sort |\
@@ -36,7 +36,7 @@ xargs
 ### Python
 
 ``` python
-datafile = "0_data/rosalind_dna.txt"
+datafile = "001_dna/rosalind_dna.txt"
 with open(datafile, 'r') as handle:
 	line_list = handle.readlines()
 	string = ''.join([

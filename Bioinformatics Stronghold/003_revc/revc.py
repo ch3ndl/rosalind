@@ -1,7 +1,7 @@
 #!python3
 # Chendl 2024-12-31
 ## Comment here
-datafile = "0_data/rosalind_revc.txt"
+datafile = "3_revc/rosalind_revc.txt"
 with open(datafile, 'r') as handle:
 	line_list = handle.readlines()
 	string = ''.join([
