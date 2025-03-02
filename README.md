@@ -11,5 +11,6 @@ This repository contains Python solutions to bioinformatics problems from Rosali
 
 To run a Python solution:
 
-```bash
+``` bash
 python3 <problem_id>.py
+```
