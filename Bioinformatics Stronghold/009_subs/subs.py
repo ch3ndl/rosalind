@@ -2,7 +2,7 @@
 # Chendl 2025-02-03
 ## use kmp algorithm
 
-datafile = "Bioinformatics Stronghold/009_subs/test.txt"
+datafile = "Bioinformatics Stronghold/009_subs/rosalind_subs.txt"
 with open(datafile, 'r') as handle:
 	string_s = handle.readline().strip()
 	string_t = handle.readline().strip()
@@ -71,4 +71,4 @@ print(kmp_search(string_s, string_t))
 
 brute_force(string_s,string_t)
 print(pythonic_search(string_s,string_t))
-print(kmp_search(string_s,string_t))
+print(' '.join([ str(i) for i in kmp_search(string_s,string_t)]))
