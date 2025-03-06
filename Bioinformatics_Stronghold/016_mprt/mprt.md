@@ -66,4 +66,3 @@ for record in record_list:
         print(record.id)
         print(' '.join(match_pos_list))
 ```
-
