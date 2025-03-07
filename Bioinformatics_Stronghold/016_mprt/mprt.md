@@ -20,11 +20,11 @@ Return: For each protein possessing the N-glycosylation motif, output its given 
 
 ## Solotion
 
-It is harder that it seems like. 
+It is harder that it seems like.
 The ID that rosalind give cannot be directly used in url.
 We must split by '_' and take the first part as the access ID.
 
-Another problem is that repeatly motic. Take an example, assert that we want match AA in string AAAA. Position 1,3 is wrong and the right answer is pos 1,2,3. 
+Another problem is that repeatly motic. Take an example, assert that we want match AA in string AAAA. Position 1,3 is wrong and the right answer is pos 1,2,3.
 
 The regex pattern used to repeatly match get by google. It check every char and then check the string after it.
 
