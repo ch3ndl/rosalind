@@ -1,4 +1,4 @@
-# 
+# Speeding Up Motif Finding
 
 Chendl 2025-03-15
 
